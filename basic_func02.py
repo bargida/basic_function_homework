@@ -2,3 +2,6 @@
 # Function should:
 # 1. Take no parameters
 # 2. Return exactly "Hello World" as a string
+def get_hello_world():
+    return "Hello World"
+print(type(get_hello_world()))
